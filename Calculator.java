@@ -1,5 +1,3 @@
-package com.example;
-
 public class Calculator {
     // The Main method: Entry point for Jenkins to execute
     public static void main(String[] args) {
