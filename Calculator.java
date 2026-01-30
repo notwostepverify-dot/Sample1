@@ -11,7 +11,7 @@ public class Calculator {
         double amount = calc.calculateCompoundInterest(p, r, t, n);
         
         System.out.println("--- Compound Interest Calculator ---");
-        System.out.printf("Principal: $%.2f\n", p);
+        System.out.printf("Principal: %.2f\n", p);
         System.out.printf("Annual Interest Rate: %.2f%%\n", r);
         System.out.printf("Future Value after %d years: $%.2f\n", t, amount);
     }
