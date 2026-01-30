@@ -16,7 +16,7 @@ public class Calculator {
         System.out.printf("Future Value after %d years: $%.2f\n", t, amount);
     }
 
-    // The Logic method: Performs the actual math
+
     public double calculateCompoundInterest(double principal, double rate, int time, int n) {
         // Formula: A = P(1 + r/n)^(nt)
         return principal * Math.pow(1 + (rate / (n * 100)), n * time);
